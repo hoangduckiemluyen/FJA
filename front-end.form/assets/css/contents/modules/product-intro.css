@@ -1,7 +1,0 @@
-.product-intro {
-    border-radius: 10px;
-    padding: 30px var(--gutter-size);
-    background-color: var(--default-back-color);
-    text-shadow: var(--default-box-shadow);
-    box-shadow: var(--default-box-shadow);
-}
