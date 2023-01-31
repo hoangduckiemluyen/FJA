@@ -1,0 +1,15 @@
+#__footer__ {
+    padding: 30px 0;
+    border-top: 1px solid rgb(150, 150, 150);
+    background-color: var(--default-back-color);
+    text-shadow: var(--default-box-shadow);
+    box-shadow: var(--default-box-shadow);
+}
+
+#__footer__ h2 {
+    margin-bottom: 10px;
+}
+
+#__footer__ p {
+    margin-bottom: 10px;
+}

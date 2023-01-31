@@ -1,0 +1,93 @@
+#__show-product__ {
+
+}
+
+#__show-product__ .main {
+    background-color: var(--default-back-color);
+    box-shadow: var(--default-box-shadow);
+    text-shadow: var(--default-box-shadow);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* img */
+#__show-product__ .main img {
+    border-radius: 8px;
+}
+
+/* desc */
+#__show-product__ .main .desc {
+
+}
+
+#__show-product__ .main .desc h2 {
+}
+
+#__show-product__ .main .desc table {
+    width: 100%;
+    margin: 20px 0;
+
+}
+
+#__show-product__ .main .desc tr {
+}
+
+#__show-product__ .main .desc tr td {
+    padding: 5px 10px;
+}
+
+#__show-product__ .main .desc tr th {
+    width: 40%;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 0;
+}
+
+/* func */
+#__show-product__ .main .func {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+#__show-product__ .main .func input {
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: inherit;
+}
+
+#__show-product__ .main .func .wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin-left: 10px;
+}
+
+#__show-product__ .main .func button {
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 20px;
+    text-shadow: var(--default-box-shadow);
+    box-shadow: var(--default-box-shadow);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* -------- detail ---------------------------------------------------------------------- */
+.detail {
+    background-color: var(--default-back-color);
+    box-shadow: var(--default-box-shadow);
+    text-shadow: var(--default-box-shadow);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.detail header h2 {
+    margin-bottom: var(--gutter-size);
+}
+
+.detail article {
+
+}

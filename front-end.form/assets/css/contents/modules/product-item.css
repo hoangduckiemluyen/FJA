@@ -1,0 +1,32 @@
+/* product */
+.product-item {
+    padding: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    text-shadow: var(--default-box-shadow);
+    box-shadow: var(--default-box-shadow);
+    background-color: var(--default-back-color);
+    margin-bottom: var(--gutter-size);
+}
+
+.product-item .img {
+    border-radius: 8px;
+    margin-bottom: 10px;
+    background-color: var(--default-img-color);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.product-item .img::before {
+    content: "";
+    display: block;
+    padding-top: 100%;
+}
+
+
+.product-item .title,
+.product-item .desc,
+.product-item .price {
+    margin-bottom: 10px;
+}
